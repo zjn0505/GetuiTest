@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tvappkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:text="appkey" />
+
+        <TextView
+            android:id="@+id/tvappsecret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+			android:textSize="20sp"            
+            android:text="appsecret" />
+        
+        <TextView
+            android:id="@+id/tvmastersecret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:text="mastersecret" />
+
+        <TextView
+            android:id="@+id/tvappid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:text="appid" />
+        
+        <TextView
+	            android:id="@+id/tvclientid"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:textSize="20sp"
+	            android:text="clientid" />
+        
+        <EditText
+	            android:id="@+id/tvTransMsg"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:textSize="20sp"
+	            android:text="透传消息" />
+
+</LinearLayout>
